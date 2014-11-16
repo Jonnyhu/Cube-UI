@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBC98AE31A1944BA006B8034 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC98AE21A1944BA006B8034 /* main.m */; };
+		FBC98AE61A1944BA006B8034 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC98AE51A1944BA006B8034 /* AppDelegate.m */; };
+		FBC98AE91A1944BA006B8034 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC98AE81A1944BA006B8034 /* ViewController.m */; };
+		FBC98AEC1A1944BA006B8034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC98AEA1A1944BA006B8034 /* Main.storyboard */; };
+		FBC98AEE1A1944BA006B8034 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC98AED1A1944BA006B8034 /* Images.xcassets */; };
+		FBC98AF11A1944BA006B8034 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBC98AEF1A1944BA006B8034 /* LaunchScreen.xib */; };
+		FBC98AFD1A1944BA006B8034 /* Cube_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC98AFC1A1944BA006B8034 /* Cube_UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBC98AF71A1944BA006B8034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC98AD51A1944BA006B8034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBC98ADC1A1944BA006B8034;
+			remoteInfo = "Cube UI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBC98ADD1A1944BA006B8034 /* Cube UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cube UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC98AE11A1944BA006B8034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC98AE21A1944BA006B8034 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBC98AE41A1944BA006B8034 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBC98AE51A1944BA006B8034 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBC98AE71A1944BA006B8034 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBC98AE81A1944BA006B8034 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBC98AEB1A1944BA006B8034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBC98AED1A1944BA006B8034 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FBC98AF01A1944BA006B8034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FBC98AF61A1944BA006B8034 /* Cube UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cube UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC98AFB1A1944BA006B8034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC98AFC1A1944BA006B8034 /* Cube_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cube_UITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBC98ADA1A1944BA006B8034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC98AF31A1944BA006B8034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBC98AD41A1944BA006B8034 = {
+			isa = PBXGroup;
+			children = (
+				FBC98ADF1A1944BA006B8034 /* Cube UI */,
+				FBC98AF91A1944BA006B8034 /* Cube UITests */,
+				FBC98ADE1A1944BA006B8034 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBC98ADE1A1944BA006B8034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC98ADD1A1944BA006B8034 /* Cube UI.app */,
+				FBC98AF61A1944BA006B8034 /* Cube UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBC98ADF1A1944BA006B8034 /* Cube UI */ = {
+			isa = PBXGroup;
+			children = (
+				FBC98AE41A1944BA006B8034 /* AppDelegate.h */,
+				FBC98AE51A1944BA006B8034 /* AppDelegate.m */,
+				FBC98AE71A1944BA006B8034 /* ViewController.h */,
+				FBC98AE81A1944BA006B8034 /* ViewController.m */,
+				FBC98AEA1A1944BA006B8034 /* Main.storyboard */,
+				FBC98AED1A1944BA006B8034 /* Images.xcassets */,
+				FBC98AEF1A1944BA006B8034 /* LaunchScreen.xib */,
+				FBC98AE01A1944BA006B8034 /* Supporting Files */,
+			);
+			path = "Cube UI";
+			sourceTree = "<group>";
+		};
+		FBC98AE01A1944BA006B8034 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBC98AE11A1944BA006B8034 /* Info.plist */,
+				FBC98AE21A1944BA006B8034 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBC98AF91A1944BA006B8034 /* Cube UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBC98AFC1A1944BA006B8034 /* Cube_UITests.m */,
+				FBC98AFA1A1944BA006B8034 /* Supporting Files */,
+			);
+			path = "Cube UITests";
+			sourceTree = "<group>";
+		};
+		FBC98AFA1A1944BA006B8034 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBC98AFB1A1944BA006B8034 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBC98ADC1A1944BA006B8034 /* Cube UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC98B001A1944BA006B8034 /* Build configuration list for PBXNativeTarget "Cube UI" */;
+			buildPhases = (
+				FBC98AD91A1944BA006B8034 /* Sources */,
+				FBC98ADA1A1944BA006B8034 /* Frameworks */,
+				FBC98ADB1A1944BA006B8034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cube UI";
+			productName = "Cube UI";
+			productReference = FBC98ADD1A1944BA006B8034 /* Cube UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBC98AF51A1944BA006B8034 /* Cube UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC98B031A1944BA006B8034 /* Build configuration list for PBXNativeTarget "Cube UITests" */;
+			buildPhases = (
+				FBC98AF21A1944BA006B8034 /* Sources */,
+				FBC98AF31A1944BA006B8034 /* Frameworks */,
+				FBC98AF41A1944BA006B8034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBC98AF81A1944BA006B8034 /* PBXTargetDependency */,
+			);
+			name = "Cube UITests";
+			productName = "Cube UITests";
+			productReference = FBC98AF61A1944BA006B8034 /* Cube UITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC98AD51A1944BA006B8034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Jonny;
+				TargetAttributes = {
+					FBC98ADC1A1944BA006B8034 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FBC98AF51A1944BA006B8034 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FBC98ADC1A1944BA006B8034;
+					};
+				};
+			};
+			buildConfigurationList = FBC98AD81A1944BA006B8034 /* Build configuration list for PBXProject "Cube UI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBC98AD41A1944BA006B8034;
+			productRefGroup = FBC98ADE1A1944BA006B8034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBC98ADC1A1944BA006B8034 /* Cube UI */,
+				FBC98AF51A1944BA006B8034 /* Cube UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBC98ADB1A1944BA006B8034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC98AEC1A1944BA006B8034 /* Main.storyboard in Resources */,
+				FBC98AF11A1944BA006B8034 /* LaunchScreen.xib in Resources */,
+				FBC98AEE1A1944BA006B8034 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC98AF41A1944BA006B8034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBC98AD91A1944BA006B8034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC98AE91A1944BA006B8034 /* ViewController.m in Sources */,
+				FBC98AE61A1944BA006B8034 /* AppDelegate.m in Sources */,
+				FBC98AE31A1944BA006B8034 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC98AF21A1944BA006B8034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC98AFD1A1944BA006B8034 /* Cube_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBC98AF81A1944BA006B8034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBC98ADC1A1944BA006B8034 /* Cube UI */;
+			targetProxy = FBC98AF71A1944BA006B8034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBC98AEA1A1944BA006B8034 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC98AEB1A1944BA006B8034 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBC98AEF1A1944BA006B8034 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC98AF01A1944BA006B8034 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBC98AFE1A1944BA006B8034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBC98AFF1A1944BA006B8034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBC98B011A1944BA006B8034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cube UI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBC98B021A1944BA006B8034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cube UI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBC98B041A1944BA006B8034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cube UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cube UI.app/Cube UI";
+			};
+			name = Debug;
+		};
+		FBC98B051A1944BA006B8034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cube UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cube UI.app/Cube UI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBC98AD81A1944BA006B8034 /* Build configuration list for PBXProject "Cube UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC98AFE1A1944BA006B8034 /* Debug */,
+				FBC98AFF1A1944BA006B8034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC98B001A1944BA006B8034 /* Build configuration list for PBXNativeTarget "Cube UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC98B011A1944BA006B8034 /* Debug */,
+				FBC98B021A1944BA006B8034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBC98B031A1944BA006B8034 /* Build configuration list for PBXNativeTarget "Cube UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC98B041A1944BA006B8034 /* Debug */,
+				FBC98B051A1944BA006B8034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBC98AD51A1944BA006B8034 /* Project object */;
+}
