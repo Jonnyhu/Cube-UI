@@ -14,6 +14,7 @@
 		FB96C4221A1951C200E9F1FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB96C4211A1951C200E9F1FC /* Images.xcassets */; };
 		FB96C4251A1951C200E9F1FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB96C4231A1951C200E9F1FC /* LaunchScreen.xib */; };
 		FB96C4311A1951C200E9F1FC /* Cube_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB96C4301A1951C200E9F1FC /* Cube_UITests.swift */; };
+		FB96C43B1A19522900E9F1FC /* GraphManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB96C43A1A19522900E9F1FC /* GraphManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		FB96C42A1A1951C200E9F1FC /* Cube UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cube UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB96C42F1A1951C200E9F1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB96C4301A1951C200E9F1FC /* Cube_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube_UITests.swift; sourceTree = "<group>"; };
+		FB96C43A1A19522900E9F1FC /* GraphManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				FB96C4181A1951C200E9F1FC /* AppDelegate.swift */,
 				FB96C41A1A1951C200E9F1FC /* FirstViewController.swift */,
 				FB96C41C1A1951C200E9F1FC /* SecondViewController.swift */,
+				FB96C43A1A19522900E9F1FC /* GraphManager.swift */,
 				FB96C41E1A1951C200E9F1FC /* Main.storyboard */,
 				FB96C4211A1951C200E9F1FC /* Images.xcassets */,
 				FB96C4231A1951C200E9F1FC /* LaunchScreen.xib */,
@@ -217,6 +220,7 @@
 			files = (
 				FB96C41D1A1951C200E9F1FC /* SecondViewController.swift in Sources */,
 				FB96C4191A1951C200E9F1FC /* AppDelegate.swift in Sources */,
+				FB96C43B1A19522900E9F1FC /* GraphManager.swift in Sources */,
 				FB96C41B1A1951C200E9F1FC /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
